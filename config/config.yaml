@@ -1,0 +1,11 @@
+# This is the first step in the worklflow
+
+artifacts_root: artifacts
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/Mrinmoy2002-prog/Files/raw/refs/heads/main/Chicken%20fecal%20Images%20-%20Copy.7z
+  local_data_file: artifacts/data_ingestion/data.zip  #Download the data from the above link and name it as given
+  unzip_dir: artifacts/data_ingestion   # Then unzip the data
+
